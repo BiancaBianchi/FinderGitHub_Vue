@@ -30,8 +30,31 @@
           />
         </div>
       </div>
+     
+      
+        <div class="search card card-body">
+          <div class="input">
+            <h2>Clima na sua cidade</h2>
+          <input type="text" placeholder="Digite a cidade" class="input_text" style="width: 1010px; border: 1px solid #ced4da;" >
+          <input type="submit" value="Submit" class="submit" style="background-color: #198754; color: white; border-radius: 5px;">
+        
+      
+        </div>
+      </div>
+    
+  
     </div>
+    <div class="container">
+      <div class="card" style="padding: 20px;">
+        <h2 class="name" id="name"></h2>
+        <p class="temp"></p>
+        <p class="clouds"></p>
+        <p class="desc"></p>
+      </div>
+    </div>
+
   </div>
+
 </template>
 
 <script>
